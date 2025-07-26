@@ -21,7 +21,7 @@ title                    : "Code Repository"
 title_separator          : "|"
 subtitle                 : "Technical Insights and Practical Experiments From a Software Engineer’s Learning Journey." # site tagline that appears below site title in masthead
 name                     : "Lee Junyoung"
-description              : "An amazing website."
+description              : "A developer blog sharing insights on C#, .NET, and Embedded Systems."
 url                      : "https://eecsjlee.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "eecsjlee/eecsjlee.github.io" # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
