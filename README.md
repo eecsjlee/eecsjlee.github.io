@@ -1,4 +1,4 @@
-# 코드 저장소  
+# Code Repository
 개발 블로그
 
 Based on Minimal Mistakes Jekyll theme.  
@@ -8,21 +8,28 @@ Based on Minimal Mistakes Jekyll theme.
 - Visual Studio Code  
 - Typora  
 - GitHub Desktop  
-- rubyinstaller devkit 3.4.5-1-x64
+- RubyInstaller Devkit 3.4.5-1 (x64)  
 https://rubyinstaller.org/downloads/  
+- Gem version 3.7.1
+- Bundler version 2.7.1
 
-![alt text](image.png)
+## 설치 및 실행 명령어
+![설치과정](image.png)
 3번 MSY32 and MINGW development toolchain
 
+```bash
 gem install jekyll
 gem update --system
 gem install bundler
 bundle install
-bundle exec jekyll serve
 bundle add webrick
+bundle exec jekyll serve
+```
 
-Gem version 3.7.1
-Bundler version 2.7.1
+## 서버실행
+```bash
+bundle exec jekyll serve
+```
 
 ## 메모  
 - **Typora**: 이미지를 쉽게 추가할 수 있음.
