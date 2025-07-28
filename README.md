@@ -23,8 +23,16 @@ gem update --system
 gem install bundler
 bundle install
 bundle add webrick
+gem install tzinfo
+gem install tzinfo-data // Asia/Seoul 타임존 문제
 bundle exec jekyll serve
 ```
+
+다음으로는 Gemfile 에 다음의 내용을 하단에 붙혀넣기 합니다.
+
+# Windows does not include zoneinfo files, so bundle the tzinfo-data gem
+gem 'tzinfo'
+gem "tzinfo-data", platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 
 ## 서버실행
 ```bash
