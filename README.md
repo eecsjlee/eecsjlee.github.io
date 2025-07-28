@@ -24,7 +24,7 @@ gem install bundler
 bundle install
 bundle add webrick
 gem install tzinfo
-gem install tzinfo-data // Asia/Seoul 타임존 문제
+gem install tzinfo-data // Asia/Seoul 타임존 문제 해결
 bundle exec jekyll serve
 ```
 
