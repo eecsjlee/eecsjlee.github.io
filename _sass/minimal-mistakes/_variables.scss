@@ -61,7 +61,7 @@ $emoji-native: 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto C
 
 /* system typefaces */
 $serif: $default-serif !default;
-$sans-serif: $default-sans-serif !default;
+$sans-serif: "Nanum Gothic", $default-sans-serif !default;
 $sans-serif-narrow: $sans-serif !default;
 $monospace: $default-monospace !default;
 
