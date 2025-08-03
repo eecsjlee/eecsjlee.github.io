@@ -19,7 +19,7 @@ locale                   : "ko-KR"
 rtl                      : # true, false (default) # turns direction of the page into right to left for RTL languages
 title                    : "Code Repository"
 title_separator          : "|"
-subtitle                 : "Technical Insights and Practical Experiments From a Software Engineer’s Learning Journey." # site tagline that appears below site title in masthead
+subtitle                 : "Technical Insights and Practical Experiments From a Software Engineer's Learning Journey." # site tagline that appears below site title in masthead
 name                     : "Lee Junyoung"
 description              : "A developer blog sharing insights on C#, .NET, and Embedded Systems."
 url                      : "https://eecsjlee.github.io"
@@ -122,9 +122,9 @@ author:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
       url: "mailto:eecsjlee@email.com"
-    - label: "Website"
-      icon: "fas fa-fw fa-link"
-      url: "https://eecsjlee.github.io"
+    # - label: "Website"
+    #   icon: "fas fa-fw fa-link"
+    #   url: "https://eecsjlee.github.io"
     # - label: "Twitter"
     #   icon: "fab fa-fw fa-twitter-square"
     #   # url: "https://twitter.com/"
@@ -147,9 +147,9 @@ footer:
     # - label: "Facebook"
     #   icon: "fab fa-fw fa-facebook-square"
     #   # url:
-    - label: "GitHub"
-      icon: "fab fa-fw fa-github"
-      url: "https://github.com/eecsjlee"
+    # - label: "GitHub"
+    #   icon: "fab fa-fw fa-github"
+    #   url: "https://github.com/eecsjlee"
     # - label: "GitLab"
     #   icon: "fab fa-fw fa-gitlab"
     #   # url:

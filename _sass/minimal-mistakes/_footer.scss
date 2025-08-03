@@ -7,7 +7,7 @@
   float: inline-start;
   margin-inline: 0;
   width: 100%;
-  margin-top: 3em;
+  margin-top: 1em;
   color: $muted-text-color;
   -webkit-animation: $intro-transition;
   animation: $intro-transition;
@@ -46,7 +46,7 @@
 
 .page__footer-copyright {
   font-family: $global-font-family;
-  font-size: $type-size-7;
+  font-size: $type-size-8;
 }
 
 .page__footer-follow {
@@ -58,11 +58,11 @@
 
   li {
     display: inline-block;
-    padding-top: 5px;
-    padding-bottom: 5px;
+    padding-top: 2px;
+    padding-bottom: 2px;
     font-family: $sans-serif-narrow;
-    font-size: $type-size-6;
-    text-transform: uppercase;
+    font-size: $type-size-8;
+    // text-transform: uppercase;
   }
 
   li + li::before {
